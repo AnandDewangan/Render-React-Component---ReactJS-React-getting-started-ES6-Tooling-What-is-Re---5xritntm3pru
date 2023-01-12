@@ -3,15 +3,8 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main"></div>
+    <p>I am learning React. My life is getting better.</p>
   )
 }
-
-class App extends React.Component{
-  render(){
-    return <div id='root'><p>I am learning React. My life is getting better.</p></div>
-  }
-}
-
 
 export default App;
